@@ -18,15 +18,15 @@ const PhotoCard = () => {
       );
     };
   return (
-    <div className="relative grid grid-cols-1 ml-0 p-2 md:grid-cols-2 lg:grid-cols-4 ml-4">
+    <div className="relative grid grid-cols-1 ml-0 p-2 overflow-hidden md:grid-cols-2 lg:grid-cols-4 ml-4">
      <div className='flex transition-transform duration-500 transform-gpu' style={{ width: `${PhotocardArr.length * 100}%`, marginLeft: `-${currentIndex * 100}%` }}>
       {PhotocardArr.map((photocard, index) => (
         <div
           key={index}
           className="flex flex-col justify-center items-center p-2 pt-8 transition-transform duration-500 transform-gpu group"
         >
-          <div className="overflow-none">
-            <div className={"front flex items-center justify-center overflow-none"}>
+          <div className="">
+            <div className={"front flex items-center justify-center overflow-hidden"}>
               <Image
                 src={photocard.imageUrl}
                 alt=""
