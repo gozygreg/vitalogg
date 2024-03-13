@@ -180,7 +180,7 @@ const Page = () => {
                   Revolutionizing Healthcare Engagement
                 </h2>
                 <p className="text-sm text-myBlack py-4 text-left">
-                  We're not just a platform; we're a movement. Vitalog
+                  We&apos;re not just a platform; we&apos;re a movement. Vitalog
                   transforms the healthcare experience, making it a
                   collaborative journey where you are understood, supported, and
                   connected.
@@ -202,7 +202,7 @@ const Page = () => {
           <p className="italic text-[12px] text-deepBlue w-[550px] mx-auto pt-4 pb-10">
             At VitaloG, our platform is designed to empower a diverse range of
             individuals and organizations committed to the well-being of others.
-            Here's how VitaloG caters to different needs.
+            Here&apos;s how VitaloG caters to different needs.
           </p>
         </div>
         <div className="flex justify-center items-center gap-16 mx-14 pb-6">
@@ -280,7 +280,13 @@ const Page = () => {
             </div>
           </div>
           <div>
-            <Image src="/people2.png" alt="" height={600} width={600} className="hidden md:block lg:block " />
+            <Image
+              src="/people2.png"
+              alt=""
+              height={600}
+              width={600}
+              className="hidden md:block lg:block "
+            />
           </div>
         </div>
       </section>

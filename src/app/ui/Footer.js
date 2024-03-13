@@ -13,7 +13,7 @@ const Footer = () => {
     <>
       <div className="bg-deepGreen block md:flex flex-row gap-[2rem] lg:flex flex-row gap-[5rem] items-center px-10 xl:gap-[10rem]">
         <div className="mr-20 md:mx-10 lg:mx-20 py-20">
-          <Image src="/vitalog2.png" height={50} width={150} />
+          <Image src="/vitalog2.png" alt='vitalog' height={50} width={150} />
           <p className="text-xs text-white py-4 font-semiBold">
             Empowering Health Dialogue and Support
           </p>

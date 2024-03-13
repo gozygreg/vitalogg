@@ -11,7 +11,7 @@ const Faq = () => {
               Frequently asked Questions
             </h1>
             <p className="text-sm font-medium text-textColor w-[400px] md:w-[300px] lg:w-[400px]">
-              Can't find what you're looking for? Explore our FAQs or contact us
+              Can&apos;t find what you&apos;re looking for? Explore our FAQs or contact us
               for further assistance.
             </p>
             <div>
@@ -72,9 +72,9 @@ const Faq = () => {
           </div>
         </div>
         <div>
-          <h1 className=" text-center font-bold mx-1 text-xl md: lg:text-xl font-medium mx-[10rem] pt-12">
+          <h1 className="text-center font-bold mx-1 text-xl lg:text-xl font-medium mx-[10rem] pt-12">
             Join VitaloG today! Register with your email to access exclusive
-            benefits at launch and ensure you're the first to know when we go
+            benefits at launch and ensure you&apos;re the first to know when we go
             live. Your community awaits.
           </h1>
           <h1 className="text-center text-4xl font-medium text-black py-6">
