@@ -53,7 +53,7 @@ const Faq = () => {
               <h2 className="text-lg font-medium">
                 How will you handle my medical details?
               </h2>
-              <p className="md:text-[12px] italic pt-4 font-medium w-full md:w-[400px] lg:w-[500px]">
+              <p className="text-[12px] italic pt-4 font-medium w-full md:w-[400px] lg:w-[500px]">
                 We take the privacy and security of your medical details
                 seriously at Vitalog, adhering to globally accepted standards to
                 ensure your information is safeguarded. Our approach involves
@@ -72,7 +72,7 @@ const Faq = () => {
           </div>
         </div>
         <div>
-          <h1 className="text-center px-8 text-justify md:text-center font-bold mx-1 text-xl lg:text-xl font-medium md:mx-[10rem] pt-12">
+          <h1 className="text-center px-6 text-justify md:text-center font-bold mx-1 text-xl lg:text-xl font-medium md:mx-[10rem] pt-12">
             Join VitaloG today! Register with your email to access exclusive
             benefits at launch and ensure you&apos;re the first to know when we go
             live. Your community awaits.
