@@ -110,7 +110,7 @@ const Page = () => {
               </div>
 
               <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
-                <h2 className="text-center md:text-lg lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
+                <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Empowering Community Support
                 </h2>
                 <p className="text-justify md:text-sm text-myBlack py-4 text-left">
@@ -127,8 +127,8 @@ const Page = () => {
                 <Image src="/icon2.png" alt="icon" width={50} height={50} className="pt-4 md:pb-[8rem] lg:"/>
               </div>
 
-              <div className="w-full px-10 md:w-[450px] pb-4 lg:px-0 mb-0">
-                <h2 className="text-center md:text-lg lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
+              <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
+                <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Virtual Support Groups and Dedicated Chat Rooms
                 </h2>
                 <p className="text-justify md:text-sm text-myBlack py-4 text-left">
@@ -143,8 +143,8 @@ const Page = () => {
               <div>
                 <Image src="/icon3.png" alt="icon" width={50} height={50} className="pt-4 md:pb-[8rem] lg:" />
               </div>
-              <div className="w-full px-10  md:w-[450px] pb-4 lg:px-0 mb-0">
-                <h2 className="text-center md:text-lg lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
+              <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
+                <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Verified Health Professionals
                 </h2>
                 <p className="text-justify md:text-sm text-myBlack py-4 text-left">
@@ -159,8 +159,8 @@ const Page = () => {
               <div>
                 <Image src="/icon4.png" alt="icon" width={50} height={50} className="pt-4 md:pb-[8rem] lg:" />
               </div>
-              <div className="w-full px-10 md:w-[450px] pb-4 lg:px-0 mb-0">
-                <h2 className="text-center md:text-lg lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
+              <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
+                <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Informed Decision-Making
                 </h2>
                 <p className="text-justify md:text-sm text-myBlack py-4 text-left">
@@ -175,8 +175,8 @@ const Page = () => {
               <div>
                 <Image src="/icon5.png" alt="icon" width={50} height={50} className="pt-4 md:pb-[8rem] lg:"/>
               </div>
-              <div className="w-full px-10 md:w-[450px] pb-4 lg:px-0 mb-0">
-                <h2 className="text-center md:text-lg lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
+              <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
+                <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Revolutionizing Healthcare Engagement
                 </h2>
                 <p className="text-justify md:text-sm text-myBlack py-4 text-left">
@@ -205,11 +205,11 @@ const Page = () => {
             Here&apos;s how VitaloG caters to different needs.
           </p>
         </div>
-        <div className="flex justify-center items-center md:gap-16 md:mx-14 pb-6">
+        <div className="flex justify-center items-center md:gap-16 md:mx-8 pb-6">
           <div className="w-full px-4 md:w-[700px] px-0">
-            <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-6 md:shadow-none md:flex-row justify-center md:py-2 mb-[2.2rem] md:gap-7">
+            <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-6 md:shadow-none md:flex-row justify-center md:py-2 mb-[-2rem] md:gap-7">
               <div>
-                <Image src="/gameIcon.png" alt="icon" height={50} width={50} className="md:pb-[8rem]" />
+                <Image src="/gameIcon.png" alt="icon" height={50} width={50} className="pb-4 md:pb-[8rem]" />
               </div>
               <div className="md:w-[450px] md:px-0">
                 <h2 className="text-center md:text-lg md:text-left font-semibold text-deepBlue pb-2">
@@ -233,7 +233,7 @@ const Page = () => {
 
             <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-6 md:shadow-none md:flex-row justify-center md:mb-[-2.2rem] md:gap-7">
               <div>
-                <Image src="/crossIcon.png" alt="icon" height={50} width={50} className="md:pb-[8rem]"/>
+                <Image src="/crossIcon.png" alt="icon" height={50} width={50} className="pb-4 md:pb-[8rem]"/>
               </div>
               <div className="md:w-[450px] md:px-0">
                 <h2 className="text-center md:text-lg md:text-left font-semibold text-deepBlue pb-2">
@@ -245,7 +245,7 @@ const Page = () => {
                   to offer private consultations, extending personalized
                   guidance to those in need.
                 </p>
-                <div className="pb-6">
+                <div className="text-center md:pb-6 md:text-left">
                   <Link href="">
                     <button className="bg-white py-2 px-4 shadow rounded-md text-[12px] text-deepGreen font-bold">
                       Pre-Register
@@ -257,7 +257,7 @@ const Page = () => {
 
             <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-6 md:shadow-none md:flex-row justify-center md:mb-[-2.2rem] pt-2 md:gap-7">
               <div>
-                <Image src="/arrowIcon.png" alt="icon" height={50} width={50} className="md:pb-[8rem]"/>
+                <Image src="/arrowIcon.png" alt="icon" height={50} width={50} className="pb-4 md:pb-[8rem]"/>
               </div>
               <div className="md:w-[450px] md:px-0">
                 <h2 className="text-center md:text-lg md:text-left font-semibold text-deepBlue pb-2">
@@ -269,7 +269,7 @@ const Page = () => {
                   community, spread awareness, and collaborate to make a
                   collective impact on the well-being of individuals worldwide.{" "}
                 </p>
-                <div className="pb-6">
+                <div className="text-center md:pb-6 md:text-left">
                   <Link href="">
                     <button className="bg-white py-2 px-4 shadow rounded-md text-[12px] text-deepGreen font-bold">
                       Pre-Register
@@ -285,7 +285,7 @@ const Page = () => {
               alt=""
               height={600}
               width={600}
-              className="hidden md:block lg:block "
+              className="hidden md:hidden lg:block "
             />
           </div>
         </div>
