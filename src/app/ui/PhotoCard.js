@@ -32,7 +32,7 @@ const PhotoCard = () => {
                 alt=""
                 width={400}
                 height={400}
-                className="max-h-full max-w-full h-[600px] w-[600px] md:h-[500px] w-[500px] xl:h-[400px] w-[800px] p-2"
+                className="h-[400px] w-[600px] pb-4 md:h-[500px] w-[500px] lg:h-[400px] w-[500px] xl:h-[400px] w-[800px] p-2"
               />
             </div>
             <div>
@@ -44,13 +44,13 @@ const PhotoCard = () => {
 
           <div className="absolute top-[-20px] left-0  w-full h-full mx-0 flex items-center justify-center transform rotate-y-180 opacity-0 transition-opacity duration-500 group-hover:opacity-100 xl:top[-24px]">
             <div
-              className="mx-4 bg-deepGreen h-[600px] w-[600px] mt-0 rounded-md transform rotate-y-180 
+              className="mx-4 bg-deepGreen h-[400px] w-[600px] mt-0 rounded-md transform rotate-y-180 
         opacity-0 transition-opacity duration-500 group-hover:opacity-100 md:h-[500px] w-[500px] lg:h-[400px] w-[500px] mt-[-14px]"
             >
-              <h2 className="m-[3%] text-white text-xl text-center pt-8 lg:m-[2%] ">
+              <h2 className="m-[1%] text-white text-xl text-center pt-2 lg:m-[2%] ">
                 My Story
               </h2>
-              <p className="p-8 text-white text-[20px] text-justify md:text-[14px] lg:p-2 text-center  xl:[12px]">
+              <p className="p-4 text-white text-[16px] text-justify md:text-[20px] lg:text-[12px] text-center  xl:[12px]">
                 {photocard.description}
               </p>
             </div>

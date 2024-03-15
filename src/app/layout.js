@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-      <div className='flex flex-col justify-center max-w-[1440px] min-h-screen bg-bgLayout'>
+      <div className='flex flex-col jusify-center max-w-[1440px] min-h-screen w-full bg-bgLayout'>
         <Navbar/>
        <div>{children}</div>
  

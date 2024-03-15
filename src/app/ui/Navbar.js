@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="">
+    <nav className="overflow-x-hidden">
       <div className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-[8%]">
         <div className="flex items-center justify-between h-16">
         
@@ -66,7 +66,7 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 bg-deepGreen z-[40]  flex justify-center items-center">
+        <div className="fixed inset-0 bg-deepGreen w-[50%3] z-[40]  flex justify-center items-center">
           <div className="px-2 pb-3 space-y-10 ">
             <Link href="/" className="text-white font-medium text-2xl ">
                 Contact Us
