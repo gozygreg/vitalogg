@@ -5,9 +5,9 @@ const Faq = () => {
   return (
     <>
       <div className="bg-myBrown py-12">
-        <div className="flex flex-col justify-center mx-[2rem] gap-0 md:flex-row gap-[4rem] justify-center items-start mx-[5rem] lg:mx-[10rem]">
+        <div className="flex flex-col justify-center mx-6 md:flex-row gap-[4rem] justify-center items-start md:mx-[5rem] lg:mx-[10rem]">
           <div className="w-full md:flex-grow w-1/2 lg:flex-grow w-1/2 xl:[]">
-            <h1 className="pt-10 text-3xl font-medium pb-6 md:text-4xl pt-0 lg:text-5xl pt-0">
+            <h1 className="pt-10 text-3xl text-center font-medium pb-6 md:text-4xl md:text-left pt-0 lg:text-5xl pt-0">
               Frequently asked Questions
             </h1>
             <p className="text-sm font-medium text-textColor w-full md:w-[300px] lg:w-[400px]">
@@ -72,20 +72,20 @@ const Faq = () => {
           </div>
         </div>
         <div>
-          <h1 className="w-full mx-[0rem] text-center px-8 text-justify md:text-center font-bold mx-1 text-xl lg:text-xl font-medium mx-[10rem] pt-12">
+          <h1 className="text-center px-8 text-justify md:text-center font-bold mx-1 text-xl lg:text-xl font-medium md:mx-[10rem] pt-12">
             Join VitaloG today! Register with your email to access exclusive
             benefits at launch and ensure you&apos;re the first to know when we go
             live. Your community awaits.
           </h1>
-          <h1 className="text-3xl text-center md:text-center text-4xl font-medium text-black py-6">
+          <h1 className="mx-[1rem] text-2xl text-center md:text-center text-4xl font-medium text-black py-6">
             Join our WaitList
           </h1>
-          <form className="flex flex-col gap-6 md:flex-row justify-center items-center md:gap-2">
+          <form className="px-4 flex flex-col gap-6 md:flex-row justify-center items-center md:gap-2">
             <input
               type="email"
               placeholder="Enter your email"
               name="email"
-              className="shadow outline-none border border-solid border-black border-1 px-2 py-2 w-[300px] rounded-md text-xs"
+              className="w-full md:shadow outline-none border border-solid border-black border-1 px-2 py-2 md:w-[300px] rounded-md text-xs"
             />
             <button
               type="submit"

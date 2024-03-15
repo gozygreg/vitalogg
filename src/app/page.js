@@ -207,7 +207,7 @@ const Page = () => {
         </div>
         <div className="flex justify-center items-center md:gap-16 md:mx-8 pb-6">
           <div className="w-full px-4 md:w-[700px] px-0">
-            <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-6 md:shadow-none md:flex-row justify-center md:py-2 mb-[-2rem] md:gap-7">
+            <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-8 md:shadow-none md:flex-row justify-center md:py-2 mb-[-2rem] md:gap-7">
               <div>
                 <Image src="/gameIcon.png" alt="icon" height={50} width={50} className="pb-4 md:pb-[8rem]" />
               </div>
