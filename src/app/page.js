@@ -4,10 +4,12 @@ import Image from "next/image";
 import PhotoCard from "./ui/PhotoCard";
 import Faq from "./ui/Faq";
 import Footer from "./ui/Footer";
+// import { motion } from 'framer-motion';
 
 const Page = () => {
   return (
     <>
+    
       <div className="relative mt-[5%] flex flex-col md:flex-row items-center justify-between z-30 mb-[-30px] md:px-4">
         <div className="hidden md:block pl-[20px] pl-[30px] py-[50px] lg:pl-[100px] xl:pl-[150px]">
           <div className="text-5xl flex flex-col gap-1 font-[800] text-lg lg:text-3xl xl:text-4xl">
@@ -104,16 +106,23 @@ const Page = () => {
             />
           </div>
           <div className="">
+           
             <div className="mb-[4rem] mt-4 rounded-xl flex flex-col justify-center items-center shadow-xl md:flex-row md:mb-[-1rem] md:mt-[-2rem] gap-5 md:shadow-none">
               <div className="">
-                <Image src="/icon1.png" alt="icon" width={50} height={50} className="pt-6 md:pb-[8rem] lg:"/>
+                <Image
+                  src="/icon1.png"
+                  alt="icon"
+                  width={50}
+                  height={50}
+                  className="pt-6 md:pb-[8rem] lg:"
+                />
               </div>
 
               <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
                 <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Empowering Community Support
                 </h2>
-                <p className="text-justify md:text-sm text-myBlack py-4 text-left">
+                <p className="text-justify text-sm text-myBlack py-4 text-left">
                   Join a resilient community of individuals on similar health
                   journeys. Vitalog provides a diverse ecosystem of verified
                   health professionals and empathetic peers, fostering a sense
@@ -124,14 +133,20 @@ const Page = () => {
 
             <div className="mb-[4rem] rounded-xl flex flex-col justify-center items-center shadow-xl md:flex-row md:mb-[-1.7rem] gap-5 md:shadow-none">
               <div>
-                <Image src="/icon2.png" alt="icon" width={50} height={50} className="pt-4 md:pb-[8rem] lg:"/>
+                <Image
+                  src="/icon2.png"
+                  alt="icon"
+                  width={50}
+                  height={50}
+                  className="pt-4 md:pb-[8rem] lg:"
+                />
               </div>
 
               <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
                 <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Virtual Support Groups and Dedicated Chat Rooms
                 </h2>
-                <p className="text-justify md:text-sm text-myBlack py-4 text-left">
+                <p className="text-justify text-sm text-myBlack py-4 text-left">
                   Engage in open dialogue and shared experiences through our
                   virtual support groups and dedicated chat rooms. Connect with
                   others facing similar challenges, exchange ideas, and find
@@ -141,13 +156,19 @@ const Page = () => {
             </div>
             <div className="mb-[4rem] rounded-xl flex flex-col justify-center items-center shadow-xl md:flex-row md:mb-[-2rem] gap-5 md:shadow-none">
               <div>
-                <Image src="/icon3.png" alt="icon" width={50} height={50} className="pt-4 md:pb-[8rem] lg:" />
+                <Image
+                  src="/icon3.png"
+                  alt="icon"
+                  width={50}
+                  height={50}
+                  className="pt-4 md:pb-[8rem] lg:"
+                />
               </div>
               <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
                 <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Verified Health Professionals
                 </h2>
-                <p className="text-justify md:text-sm text-myBlack py-4 text-left">
+                <p className="text-justify text-sm text-myBlack py-4 text-left">
                   Access personalized guidance from verified health
                   professionals. Vitalog connects you with experts who can
                   provide tailored advice through private consultations,
@@ -157,13 +178,19 @@ const Page = () => {
             </div>
             <div className="mb-[4rem] rounded-xl flex flex-col justify-center items-center shadow-xl md:flex-row md:mb-[-2rem] gap-5 md:shadow-none">
               <div>
-                <Image src="/icon4.png" alt="icon" width={50} height={50} className="pt-4 md:pb-[8rem] lg:" />
+                <Image
+                  src="/icon4.png"
+                  alt="icon"
+                  width={50}
+                  height={50}
+                  className="pt-4 md:pb-[8rem] lg:"
+                />
               </div>
               <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
                 <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Informed Decision-Making
                 </h2>
-                <p className="text-justify md:text-sm text-myBlack py-4 text-left">
+                <p className="text-justify text-sm text-myBlack py-4 text-left">
                   Navigate your health journey with confidence. Vitalog combines
                   accurate information, peer support, and professional guidance
                   to empower you with the knowledge needed to make informed
@@ -173,13 +200,19 @@ const Page = () => {
             </div>
             <div className="mb-[4rem] rounded-xl flex flex-col justify-center items-center shadow-xl md:flex-row md:mb-[-2rem] gap-5 md:shadow-none">
               <div>
-                <Image src="/icon5.png" alt="icon" width={50} height={50} className="pt-4 md:pb-[8rem] lg:"/>
+                <Image
+                  src="/icon5.png"
+                  alt="icon"
+                  width={50}
+                  height={50}
+                  className="pt-4 md:pb-[8rem] lg:"
+                />
               </div>
               <div className="w-full px-10 md:w-[450px] md:px-0 pb-4">
                 <h2 className="text-center md:text-lg md:text-left lg:text-left text-deepBlue font-bold text-deepBlue font-bold">
                   Revolutionizing Healthcare Engagement
                 </h2>
-                <p className="text-justify md:text-sm text-myBlack py-4 text-left">
+                <p className="text-justify text-sm text-myBlack py-4 text-left">
                   We&apos;re not just a platform; we&apos;re a movement. Vitalog
                   transforms the healthcare experience, making it a
                   collaborative journey where you are understood, supported, and
@@ -187,6 +220,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
+         
           </div>
         </div>
       </div>
@@ -209,13 +243,19 @@ const Page = () => {
           <div className="w-full px-4 md:w-[700px] px-0">
             <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-6 md:shadow-none md:flex-row justify-center md:mb-[-2.2rem] md:gap-7">
               <div>
-                <Image src="/gameIcon.png" alt="icon" height={50} width={50} className="pb-4 md:pb-[8rem]" />
+                <Image
+                  src="/gameIcon.png"
+                  alt="icon"
+                  height={50}
+                  width={50}
+                  className="pb-4 md:pb-[8rem]"
+                />
               </div>
               <div className="md:w-[450px] md:px-0">
                 <h2 className="text-center md:text-lg md:text-left font-semibold text-deepBlue pb-2">
                   Patients Seeking Support
                 </h2>
-                <p className="text-justify md:text-sm text-myBlack pb-4">
+                <p className="text-sm text-myBlack pb-4">
                   Embark on your health journey with a strong support system.
                   VitaloG offers a nurturing community where individuals facing
                   health challenges can connect, share experiences, and find
@@ -233,7 +273,13 @@ const Page = () => {
 
             <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-6 md:shadow-none md:flex-row justify-center md:mb-[-2.2rem] md:gap-7">
               <div>
-                <Image src="/crossIcon.png" alt="icon" height={50} width={50} className="pb-4 md:pb-[8rem]"/>
+                <Image
+                  src="/crossIcon.png"
+                  alt="icon"
+                  height={50}
+                  width={50}
+                  className="pb-4 md:pb-[8rem]"
+                />
               </div>
               <div className="md:w-[450px] md:px-0">
                 <h2 className="text-center md:text-lg md:text-left font-semibold text-deepBlue pb-2">
@@ -257,7 +303,13 @@ const Page = () => {
 
             <div className="flex flex-col justify-center items-center shadow-xl rounded-xl px-8 py-8 mb-6 md:shadow-none md:flex-row justify-center md:mb-[-2.2rem] pt-2 md:gap-7">
               <div>
-                <Image src="/arrowIcon.png" alt="icon" height={50} width={50} className="pb-4 md:pb-[8rem]"/>
+                <Image
+                  src="/arrowIcon.png"
+                  alt="icon"
+                  height={50}
+                  width={50}
+                  className="pb-4 md:pb-[8rem]"
+                />
               </div>
               <div className="md:w-[450px] md:px-0">
                 <h2 className="text-center md:text-lg md:text-left font-semibold text-deepBlue pb-2">

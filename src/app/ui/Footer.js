@@ -52,7 +52,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="mt-[-2rem] text-white block gap-[0rem] ml-[0rem] mb-0 pb-2 md:flex flex-row gap-[2rem] lg:flex flex-row gap-[2.8rem] mb-10 xl:gap-[10rem]">
+        <div className="mt-[-2rem] text-white block gap-[0rem] ml-[0rem] mb-[0rem] pb-2 md:flex flex-row gap-[2rem] lg:flex flex-row gap-[2.8rem] mb-10 xl:gap-[10rem]">
           <div className="pb-4 lg:pb-0">
             <h2 className="font-semibold text-xl md:text-[15px] lg:text-[15px] mt-[15px] pb-2 text-left">
               Quick Links
